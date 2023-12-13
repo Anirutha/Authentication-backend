@@ -11,4 +11,4 @@ app.use(express.json());
 app.use(cors());
 app.use("/users", usersRouter)
 
-app.listen(PORT, () => console.log(`Server started in localhost:${PORT}`));
+app.listen(9000, () => console.log(`Server started in localhost:9000`));
